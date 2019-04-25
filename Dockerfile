@@ -10,6 +10,7 @@ RUN set -x \
     libc6-dev \
     libxml2-dev \
     zlib1g-dev \
+    libgmp-dev \
   && cpan -T -i \
     EV \
     AnyEvent::HTTPD \
