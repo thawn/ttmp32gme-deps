@@ -1,6 +1,6 @@
 FROM perl:slim
 
-COPY --from=johannesfritsch/tttool /usr/local/bin/tttool /usr/local/bin
+COPY tttool/tttool /usr/local/bin
 COPY ffmpeg/ffmpeg /usr/local/bin
 
 ARG build_deps='gcc apt-utils'
